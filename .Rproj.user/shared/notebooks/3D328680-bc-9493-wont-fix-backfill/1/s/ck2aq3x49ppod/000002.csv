@@ -1,0 +1,8 @@
+"0","```r
+cc <- odbc::dbConnect(odbc::odbc(), \"CrowdControl\") # \"Redshift\" is currently the other option
+
+submissions <- tbl(cc, \"submissions\")
+bounties <- tbl(cc, \"bounties\")
+
+org_names <- tbl(cc, \"organizations\") %>% select(organization_id = id, organization_name = name)
+```"

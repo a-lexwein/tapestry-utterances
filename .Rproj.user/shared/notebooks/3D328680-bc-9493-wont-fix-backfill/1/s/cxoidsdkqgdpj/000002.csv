@@ -1,0 +1,17 @@
+"0","```r
+
+# all time
+start_time <- as.POSIXct(\"2000-01-01 00:00\")
+
+end_time <- as.POSIXct(\"2100-01-01 00:00\")
+# TODO add a YTD
+
+known_issues_id <- 6466
+excluded_bounties <- \"hackme|ibm|casper01|abbytest|supersecretupcomingprogram|bofa|tyrell|hackathonongoing|clearondemand01|gett|harleydavidson|ringondemand|thalesavionics|ciscomerakidemoprog|fbdemo|mailchimp2|sonyongoing|ncc|bugcrowd|pepsico|ncscpilot1|priceline|rocketfuelse|cloudways|eset|schibsted|teflonhub|widgets|hugcrowdandroid|umbrella|klickhealth|darkmatterae|test9320984|qualysintegrationtest|abigailsbounty|santander|demozocdoc|czimeta|umbrella-demo\" %>%
+  stringr::str_split(\"\\|\") %>%
+  unlist()
+
+keep_statuses <- c(\"live\",\"pending\", \"closed\") #all status
+
+priority_colors <- c('#d13535', '#fa6900', '#f0ad4e', '#5eae00', '#29758F')
+```"

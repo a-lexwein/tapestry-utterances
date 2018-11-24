@@ -1,0 +1,104 @@
+This is a talk about context. So let's give you some.
+
+I'm Alex, a former future linguist.  What is that?  Back in 2010, I started a phd program linguistics. For while there, I was a future linguist, studying the semantics of modality in English.  I am no longer a future linguist...but I'm not a linguist either.  I left grad school after two years and since then, I've had various data jobs in the Bay Area.
+
+I only studied linguistics for 2 years, but my other qualification for this talk, is like most of you: I am "native speaker" of data visualization.
+
+Over the years, I've made a lot of charts. I've also read a lot more charts.  Drawn conclusions, changed my mind. A thing I also have a lot of experience with: Making a chart that convinces me of something. Then sharing the chart with somebody in hopes of convincing them. And they are not convinced!
+
+
+---
+Descriptivism: How people actually use language
+Prescriptivism: How some asshole thinks people should use language
+
+How to be a better prescriptivist:
+
+One word can have two meanings.
+Two words can overlap in meaning.
+It's okay to have personal preferences about how you use language.  It's not okay to criticize others for having different personal preferences.
+When this happens in language: it ends up being racist and classist.
+
+
+There is a lot of different language out there.
+
+Bits of pragmatics:
+
+- Pronoun Resolution
+- Vagueness and Ambiguity
+- Speech Acts
+- Social meaning
+
+Phonetics - how humans produce and process speech as sounds (or gestures).
+Phonology - abstract represantions "sounds" and how they combine with languages.
+Morphology - study of structure within words: -ed
+Syntax - How words combine to make sentences
+Semantics - How the meaning of words combines to determine the meaning of sentences
+Pragmatics - How the context impacts the meaning of sentences
+
+All these subfields interact in complicated ways, and cutting across all these subfields, linguists work with various (Computational, Phsycho-, Socio-) and various languages.
+
+---
+
+Production and perception
+Maps from data to graphical elements
+How 
+
+
+---
+
+A few points about data visualization here:
+
+- Charts also have this multilevel compositional nature:
+Data (which has its own compositional nature) is mapped to pixels or some other physical material. But we can analyze charts abstracted away from the physical material. When I think about charts, I don't think in pixels, I think in geoms.
+
+Data visualization is fundamentally compositional. Pixels make dots, lines, regions.  Labels, titles, Small multiples, reports.  The meaning of a chart is not just the meaning of the pieces, but in how they are composed.
+
+There's room to study the perceptual aspects of data visualization.
+There's room to study artificial intelligence.
+There's room to use introspection, philosophy, pure math
+There's room for prescriptivism, just know you're doing it.
+
+Think about this shit from every angle we can.  Welcome interdisciplinary analysis.  Study the charts in the wild, marvel at them. Have empathy for people's ongoing struggle to communicate. A lot of "prescriptivism" in data viz really comes down to 
+
+
+
+---
+But it's more complicated:
+
+- Nobody is actually a native speaker of viz...although vis relies on natural cognitives processes that power communication.
+- Data visualization is rarely in the canonical 2-speaker situation that linguists are most comfortable.
+- Most chart utterances are also super complex. We reach to charts when language oversimplifies.
+- Grice's maxims are a little flimsy as explanatory tools.
+- Important caveat: Every model is wrong (CITE the guy)
+- Your generalization about language will fall apart based on some data point.
+
+Rappers
+Lawyers
+Journalists
+
+Ways Data Viz as a field of study is like linguistics.
+
+- It's young...but also has a long legacy.
+
+
+Quality - You gotta believe what you're trying to convey!!!
+Relevance - You gotta believe what you're saying will help your interlocutor know something.
+Quantity - Show enough data, don't show too much data.
+Manner - respect the conventions of your audience.
+
+"In one chart"
+
+One of the projects I'm working on right now is a customer reporting initiative. There's more than one report type.
+
+Trust:
+
+When I'm talking to my boss, I don't have to do as much with a chart to establish trust.
+
+Somebody who's job I only kind of understand
+
+I'm making a chart factory.
+Each customer has a different dataset.
+There are also start date end date parameters.
+
+captive audience
+

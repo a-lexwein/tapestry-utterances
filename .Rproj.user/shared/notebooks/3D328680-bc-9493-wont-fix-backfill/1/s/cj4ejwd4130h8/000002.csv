@@ -1,0 +1,4 @@
+"1","Error in sqlParseVariablesImpl(sql, list(sqlQuoteSpec(\"\\"\", \"\\"\"), sqlQuoteSpec(\"'\",  : 
+  Unterminated literal
+Failed to execute SQL chunk
+"

@@ -1,0 +1,12 @@
+"0","```r
+bounties_in_scope_sql <- bounties %>%
+  filter(!trial,
+         status %in% !! keep_statuses,
+         !(code %in% !! excluded_bounties)) %>%
+  mutate(points_only = low_reward == 0 & high_reward == 0 & total_prize_pool == 0) %>%
+  select(bounty_id = id, code, starts_at, bounty_type, status, participation, points_only, organization_id) %>%
+  left_join(org_names)
+
+```"
+"1","Joining, by = \"organization_id\"
+"

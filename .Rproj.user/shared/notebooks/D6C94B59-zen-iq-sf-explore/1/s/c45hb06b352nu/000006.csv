@@ -1,0 +1,9 @@
+"0","a <- accounts %>%
+  filter(!is.na(organization_id_portal_c)) %>%
+  select(contains(""_id""), contains(""zen_iq""), contains(""_at"")) %>% collect()
+"
+"2","Error: <SQL> 'SELECT ""created_by_id"", ""dscorgpkg_discover_org_id_c"", ""dscorgpkg_external_discover_org_id_c"", ""jigsaw_company_id"", ""last_modified_by_id"", ""owner_id"", ""parent_id"", ""master_record_id"", ""record_type_id"", ""x18_char_account_id_c"", ""organization_id_portal_c"", ""netsuite_conn_net_suite_id_c"", ""iv_ultimate_parent_company_id_c"", ""iv_parent_company_id_c"", ""iv_id_c"", ""zen_iq_letter_score_c"", ""zen_iq_street_c"", ""zen_iq_update_needed_c"", ""zen_iq_postal_code_c"", ""zen_iq_website_c"", ""zen_iq_country_c"", ""zen_iq_employee_size_c"", ""zen_iq_firmographic_score_c"", ""zen_iq_city_c"", ""zen_iq_industry_c"", ""zen_iq_revenue_range_c"", ""zen_iq_account_score_c"", ""zen_iq_company_name_c"", ""zen_iq_technographic_score_c"", ""zen_iq_state_c"", ""zen_iq_bombora_score_c"", ""zen_iq_duns_c"", ""zen_iq_auid_c"", ""zen_iq_raw_employee_count_c"", ""zen_iq_no_score_c"", ""received_at""
+FROM salesforce.accounts
+WHERE (NOT(((""organization_id_portal_c"") IS NULL)))'
+  nanodbc/nanodbc.cpp:1587: HY000: could not receive data from ser
+"

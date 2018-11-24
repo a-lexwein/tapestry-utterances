@@ -1,0 +1,9 @@
+{
+    "path" : "~/utterances-tapestry/timeline-playground",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542902076296.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B48ABE6F",
+    "lastKnownWriteTime" : 1542902073,
+    "last_content_update" : 1543066858920,
+    "path" : "~/utterances-tapestry/quantity-time.R",
+    "project_path" : "quantity-time.R",
+    "properties" : {
+        "cursorPosition" : "52,0",
+        "scrollLine" : "26"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

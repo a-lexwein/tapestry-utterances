@@ -1,0 +1,35 @@
+Identity added: /Users/alexwein/.ssh/bugcrowd_id (/Users/alexwein/.ssh/bugcrowd_id)
+]0;~/utterances-tapestry[?1034hAlexs-MBP:utterances-tapestry alexwein$ touch [KAlexs-MBP:utterances-tapestry alexwein$ touch quantity-time.[K.R
+]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ open quantity-time.R 
+]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ [KAlexs-MBP:utterances-tapestry alexwein$ git status
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git init .
+Initialized empty Git repository in /Users/alexwein/utterances-tapestry/.git/
+]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.DS_Store[m
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mlibs/[m
+	[31mmanner.R[m
+	[31mquantity-time.R[m
+	[31msandwich.Rmd[m
+	[31msandwich.html[m
+	[31mtimeline-playground.numbers[m
+	[31mtimeline-playground/[m
+	[31mtimeline.R[m
+	[31mtimeline.csv[m
+	[31mtry.Rmd[m
+	[31mtry.html[m
+	[31mutterances-tapestry.Rproj[m
+	[31mv1.Rmd[m
+	[31mv1.html[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git add .
