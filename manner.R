@@ -1,6 +1,8 @@
-just_right + scale_x_reverse()
+back_to_date <- function(int) {
+  as.Date(int, origin = "1970-01-01", format = "")
+}
 
-just_right_reverse <- series %>%
+reverse_x <- series %>%
   mutate(date_int = as.integer(date)) %>%
   filter(date >= as.Date("2018-10-01")) %>%
   filter(key %in% c("a", "b")) %>%
@@ -13,5 +15,5 @@ just_right_reverse <- series %>%
                                 y = value,
                                 label = round(value,1),
                                 color = key)) +
-  scale_x_reverse()
+  scale_x_reverse(labels = back_to_date, name = "date")
   

@@ -1,5 +1,5 @@
 back_to_date <- function(int) {
-  as.Date(int, origin = "1970-01-01")
+  as.Date(int, origin = "1970-01-01", format = "")
 }
 
 reverse_x <- series %>%
