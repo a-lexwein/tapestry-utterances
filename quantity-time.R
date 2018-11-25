@@ -1,0 +1,64 @@
+# Chart of with time on the x and y axis
+library(ggplot2)
+library(dplyr)
+
+series <- readr::read_csv("timeline-playground/series-Table 1.csv") %>%
+  tidyr::gather(key, value, - date)
+
+too_much_x <- series %>%
+  filter(key %in% c("a", "b")) %>%
+  ggplot(aes(x = date,
+             y = value,
+             color = key)) +
+  geom_line()
+
+just_right_lab_dates <- c(as.Date("2018-10-01"),
+                          as.Date("2018-11-29"))
+
+just_right_labs <- series %>%
+  filter(date %in% just_right_lab_dates) %>%
+  filter(date >= as.Date("2018-10-01")) %>%
+  mutate(date_int = as.integer(date)) %>%
+  filter(key %in% c("a", "b"))
+
+
+
+just_right <- series %>%
+  filter(date >= as.Date("2018-10-01")) %>%
+  filter(key %in% c("a", "b")) %>%
+  ggplot(aes(x = date,
+             y = value,
+             color = key)) +
+  geom_line() +
+  ggrepel::geom_label_repel(data = just_right_labs, aes(x = date,
+                                        y = value,
+                                        label = round(value,1),
+                                        color = key))
+  
+
+too_little_x <- series %>%
+  filter(date >= as.Date("2018-10-01"),
+         date <= as.Date("2018-10-28")) %>%
+  filter(key %in% c("a", "b")) %>%
+  ggplot(aes(x = date,
+             y = value,
+             color = key)) +
+  geom_line()
+
+too_little_label <- series %>%
+  filter(date >= as.Date("2018-10-01")) %>%
+  filter(key %in% c("a", "b")) %>%
+  ggplot(aes(x = date,
+             y = value,
+             color = key)) +
+  geom_line() +
+  theme(axis.text = element_blank())
+
+too_much_label <- series %>%
+  filter(date >= as.Date("2018-10-01")) %>%
+  filter(key %in% c("a", "b")) %>%
+  ggplot(aes(x = date,
+             y = value, label = round(value,1))) +
+  geom_line(aes(color =  key)) + ggrepel::geom_label_repel()
+
+

@@ -17,3 +17,5 @@ reverse_x <- series %>%
                                 color = key)) +
   scale_x_reverse(labels = back_to_date, name = "date")
   
+
+just_right + coord_polar()

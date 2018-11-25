@@ -38,7 +38,7 @@ class: center, middle
 - B: Yes. I love sandwiches.
 --
 
-- A: Here you go. *[Hands over sandwich]*
+- A: Here you go. *[Hands over X]*
 --
 
 - B: Hooray! 

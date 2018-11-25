@@ -411,3 +411,7 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git commit -am "fo[K[Kfound [K[K[K[K[K[Kgood hexes for colorblind examp le"
+[master 1afcfbc] good hexes for colorblind example
+ 6 files changed, 390 insertions(+), 9 deletions(-)
+Identity added: /Users/alexwein/.ssh/bugcrowd_id (/Users/alexwein/.ssh/bugcrowd_id)
+]0;~/utterances-tapestry[?1034hAlexs-MBP:utterances-tapestry alexwein$ 

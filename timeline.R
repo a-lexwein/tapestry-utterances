@@ -9,7 +9,7 @@ intervals <- read_csv("timeline-playground/intervals-Table 1.csv")
 hues <- c()
 hues$tapestry_label <- "#9C179EFF"
 hues$plan <- viridis::plasma(5)[4]
-hues$reality <- viridis::plasma(6)[3]
+hues$reality <- "#F0F921FF"
 
 
 step1 <- intervals %>%
@@ -22,7 +22,7 @@ step1 <- intervals %>%
              y = row + .25,
              label = role,
              fill = as.factor(row))) +
-  coord_cartesian(xlim = c(as.Date("2006-09-01"), as.Date("2019-06-01")),
+  coord_cartesian(xlim = c(as.Date("2007-09-01"), as.Date("2019-06-01")),
                   ylim = c(0,3.3)) +
   theme(axis.text.y = element_blank(),
         axis.title = element_blank(),
@@ -56,7 +56,12 @@ step2 <- step1 +
               aes(x = start + (end - start)/2,
                   y = row + .25,
                   label = role)) +
-  ggtitle("Future Linguist")
+  annotate("text", x = as.Date('2008-05-01'),
+           y = 2.2,
+           label = "Plan",
+           color = hues$plan,
+           hjust = 1.1,
+           size = 5)
 
 step3 <- step2 +
   geom_rect(
@@ -72,10 +77,33 @@ step3 <- step2 +
                              y = row + .25,
                              label = role))
 
+reality_step <- filter(reality, role == "PhD Student")
+
 step4 <- step3 + 
   geom_rect(
+    data = reality_step,
+    fill = hues$reality,
+    color = hues$tapestry_label,
+    aes(
+      xmin = start,
+      xmax = end,
+      ymin = row,
+      ymax = row + .5)
+  ) +
+  geom_text(data = reality_step, aes(x = start + (end - start)/2,
+                             y = row + .25,
+                             label = role)) +
+  annotate("text", x = as.Date('2008-05-01'),
+           y = 0.5,
+           label = "Reality",
+           color = hues$tapestry_label,
+           hjust = 1.1,
+           size = 5)
+
+step5 <- step4 + 
+  geom_rect(
     data = reality,
-    fill = "#F0F921FF",
+    fill = hues$reality,
     color = hues$tapestry_label,
     aes(
       xmin = start,
@@ -84,7 +112,12 @@ step4 <- step3 +
       ymax = row + .5)
   ) +
   geom_text(data = reality, aes(x = start + (end - start)/2,
-                             y = row + .25,
-                             label = role)) +
-  ggtitle("Former Future Linguist")
+                                     y = row + .25,
+                                     label = role)) +
+  annotate("text", x = as.Date('2008-05-01'),
+           y = 0.5,
+           label = "Reality",
+           color = hues$tapestry_label,
+           hjust = 1.1,
+           size = 5)
 

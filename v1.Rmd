@@ -102,3 +102,29 @@ There are also start date end date parameters.
 
 captive audience
 
+
+---
+
+Be Relevant
+
+Quality
+
+A key word is “believe”.
+
+The level of evidence needed is depends on the situation.
+
+
+---
+
+Phonetics has to do with the physical properties of language: things like how the position of your tongue affects the sounds you make, and how those sounds are perceived by the listener.
+Phonology deals with the mental representations of those sounds, and how they behave across and within languages.
+Morphology is the study of the internal structure of words: -ed, to indicate past tense is a textbook morpheme.
+Syntax: how words are structured into sentences. Most closely maps onto parts of speech.
+Semantics: how the meaning of words in a particular structure determine the meaning of sentences.
+Pragmatics: how the context in which a sentence was uttered determines its meaning.
+
+It depends.
+
+It depends on your audience.
+It depends on your data.
+It depends on the medium through which you're communicating.
