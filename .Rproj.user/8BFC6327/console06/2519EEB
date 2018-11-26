@@ -414,4 +414,27 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [master 1afcfbc] good hexes for colorblind example
  6 files changed, 390 insertions(+), 9 deletions(-)
 Identity added: /Users/alexwein/.ssh/bugcrowd_id (/Users/alexwein/.ssh/bugcrowd_id)
-]0;~/utterances-tapestry[?1034hAlexs-MBP:utterances-tapestry alexwein$ 
+]0;~/utterances-tapestry[?1034hAlexs-MBP:utterances-tapestry alexwein$ Error connecting to agent: No such file or directory
+[KAlexs-MBP:utterances-tapestry alexwein$ [KAlexs-MBP:utterances-tapestry alexwein$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/8BFC6327/console06/2519EEB[m
+	[31mmodified:   .Rproj.user/8BFC6327/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/8BFC6327/sources/prop/37DE8D56[m
+	[31mmodified:   .Rproj.user/8BFC6327/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   timeline-playground.numbers[m
+	[31mmodified:   timeline-playground/intervals-Table 1.csv[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mquantity-aggregation.R[m
+	[31mtimeline-playground/hours-Table 1.csv[m
+	[31mtimeline-playground/series-Table 2.csv[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git add .[K[K .
