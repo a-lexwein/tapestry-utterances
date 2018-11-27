@@ -61,9 +61,11 @@ Sentences have meaning, but the meaning is incomplete. Sentences have truth cond
 
 
 
-Which brings to a Philosopher of Language named HP Grice. He wrote one of the foundational works of pragamtics, where he attempted to systematize the unwritten rules that govern conversation.  In the 1975 paper Logic and Conversation, Grice gives his Cooperative Principle. I'm gonna just read this one verbatim: “Make your contribution such as it is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged.”
+Which bringsus  to a Philosopher of Language named HP Grice. He wrote one of the foundational works of pragamtics, where he attempted to systematize the unwritten rules that govern conversation.  In the 1975 paper Logic and Conversation, Grice gives his Cooperative Principle. I'm gonna just read this one verbatim: “Make your contribution such as it is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged.”
 
-Kind of a mouthful, but the idea is that
+It's kind of a mouthful, but the idea is that conversation has a purpose, whether it's figuring out what to eat for dinner, expressing an idea about data visualization
+
+
 
 This is how a lot of linguistics is done.
 
@@ -75,6 +77,30 @@ Response A: It went well, probably.
 Response B: It went well, improbably.
 
 
+This is a classical methodology within linguistics. Show the same sentence in two contexts and show how the meaning changes.  Or show two sentences in the same context and compare their meaning.  It's the change exactly one thing notion behind good science, but it relies on the personal judgments and artificial contexts.
+
+
+Which brings us to the maxim of quantity. While all four maxims apply to charts, it's worth spending a little more time on Quanitty than the other three.
+
+The maxim of quantity has two parts:
+
+1. “Make your contribution as informative as is required (for the current purposes of the exchange).”
+2. “Do not make your contribution more informative than is required.”
+
+So the maxim of quantity sets up a Goldilocks situation, where you want to inform, but not over-inform.  Consider a linguistic example. "What did you have for dinner?"
+
+If I answer "Lasgna", that feels felicitous, conveying the right amount of information.  Whereas, if I replied: "Food", that's not very helpful.  Similarly, if answered with a detailed list of all the ingredients in the lasagna, that wouldn't be very cooperative either.
+
+This extends to charting in a lot of different dimensions.  So again, we'll use our handy "Just Right" version of chart of two diverging lines.  If the question is about A and B, then just plotting the series for A isn't going to cut it.  Likewise, including data on C, D, and E isn't going to help drive the decision between A and B.
+
+But even if we just focus on A and B, there still plenty of ways to overinform and underinform.
 
 
 
+
+Q: What did you have for lunch?
+
+A1: Food.
+A2: Lasagna
+A3:
+I had 2 tablespoons olive oil, 1 pound ground beef (85% lean), 1/2 cup chopped carrot, 1/2 cup finely chopped onion, 1 clove garlic, chopped, 1 teaspoon tomato paste, 2 teaspoons all-purpose flour, Splash red wine, 1 1/2 cups canned chopped tomatoes, with their juices, 1 cup beef stock, 1/2 teaspoon chopped fresh oregano, 3 tablespoons unsalted butter, 3 tablespoons all-purpose flour, 1 1/2 cups whole milk, Pinch freshly ground nutmeg, 1/2 package no-boil lasagna sheets, and 3/4 cup shredded fresh mozzarella.

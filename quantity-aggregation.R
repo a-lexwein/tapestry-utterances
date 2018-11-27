@@ -14,9 +14,7 @@ too_little_agg <- series %>%
   geom_line()
 
 
-too_much_agg <- 1
-  
-series %>%
+too_much_agg <- series %>%
   filter(date >= as.Date("2018-10-01")) %>%
   mutate(month = lubridate::floor_date(date, "month")) %>%
   group_by(month, key) %>%
@@ -25,4 +23,6 @@ series %>%
   ggplot(aes(x = month,
              y = value,
              color = key)) +
-  geom_line()
+  geom_line() +
+  scale_x_date(breaks = c(as.Date("2018-10-01"), as.Date("2018-11-01")),
+               date_labels = "%B")
