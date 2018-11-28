@@ -33,17 +33,16 @@ Next we come to semantics: how the meaning of words, in a particular syntactic s
 
 "Robert made a chart. He used ggplot2."
 
-So, despite being the same setence, they have different meanings.  One could be true and the other could be false.
+So, despite being the same setence, they have different meanings. One could be true and the other could be false.
 
 There's also, situational context.
-
 
 Okay, three more concepts to think about sentences.
 
 We've got grammaticality:
 
 "She plotted the residuals." That's a grammatical setence.
-"She the residuals plotted" That's gibberish.
+"Plotted she the residuals" That's gibberish.
 
 So, once we have a well-formed grammatical sentence, we can talk about its truth conditions: how the world would have to be in order for the setence to be true. Not all sentences are statements, but in a context, a statement will either be true or false. So taking the same sentence, in order for it to be true, there must be a some "She" who made a chart of "the residuals".
 
@@ -95,6 +94,8 @@ This extends to charting in a lot of different dimensions.  So again, we'll use 
 
 But even if we just focus on A and B, there still plenty of ways to overinform and underinform.
 
+We might plot too many 
+
 
 
 
@@ -104,3 +105,20 @@ A1: Food.
 A2: Lasagna
 A3:
 I had 2 tablespoons olive oil, 1 pound ground beef (85% lean), 1/2 cup chopped carrot, 1/2 cup finely chopped onion, 1 clove garlic, chopped, 1 teaspoon tomato paste, 2 teaspoons all-purpose flour, Splash red wine, 1 1/2 cups canned chopped tomatoes, with their juices, 1 cup beef stock, 1/2 teaspoon chopped fresh oregano, 3 tablespoons unsalted butter, 3 tablespoons all-purpose flour, 1 1/2 cups whole milk, Pinch freshly ground nutmeg, 1/2 package no-boil lasagna sheets, and 3/4 cup shredded fresh mozzarella.
+
+
+conclusion:
+
+Obviously the pragmatics of data visualization get a lot more complicated.
+
+The textbook linguistics situation of a two person speech exchange with a very light context doesn't cover the bulk of data visualization utterances. Most data visualization are inherently complex: we tend to reach for charts when words when we want to communicate something too difficult for words.
+
+Also, while I called myself a "native speaker of charts" earlier, that's not really true.  Charts are more like reading and writing than natural language. While reading and making charts may feel natural to me at this point, I had to *actively* learn how to do it. And like writing, charts keep on existing. When I make a chart, I hope it gets shared, so I need to worry about the context it is shared in.
+
+A lot of the data visualization I do now is not making one chart to answer one question. Instead, I'm building reporting regime that answer "How did things go for my program, this month?"
+
+So when we say we need to consider the context...we actually need to consider a lot of possible contexts in which the chart might show up. Being good at data visualization (and data communication more broadly) usually involves a lot of mind reading. Rather than responding to a particular question, we need to anticipate the questions.
+
+And the last point is: Not every is cooperating! There are a lot of people out there actively trying to mislead you data visualization. And even those making good faithed efforts to further the conversation in a search for the truth, might not have the skills. And it's not just the chartmaker who might not really be cooperating. One of the biggest challenges in data communication is that people really really hate changing their mind.  So rather than being asked "Should we do A or B", often you get asked "I want to do A, give me a chart that justifies it!"
+
+But even when things get complicated -- especially when things get complicated -- thinking systematically about context is going to make you a much more effective communicator.
