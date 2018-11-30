@@ -1025,3 +1025,39 @@ Error connecting to agent: No such file or directory
 ]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ mkdir charts
 Error connecting to agent: No such file or directory
 ]0;~/utterances-tapestry[?1034hAlexs-MacBook-Pro:utterances-tapestry alexwein$ git ad[K[K-[Kcommit -[K0[K-am "done[K[K[K[Kdone[K[K[K[Kfina[K[K[K[Kmabye last[K[K[K[K[K[K[K[K[K[Krunme re[K[Kfenera[K[K[K[K[K[Kgenreates a[K[K[K[K[K[K[K[Kerates all charts"
+[master cbc5d75] runme generates all charts
+ 29 files changed, 200 insertions(+), 52 deletions(-)
+ delete mode 100644 .Rproj.user/8BFC6327/unsaved-notebooks/5193A47D/1/chunks.json
+ delete mode 100644 .Rproj.user/shared/notebooks/D8F67ED1-try/1/s/chunks.json
+ delete mode 100644 charts/.DS_Store
+ rewrite manner.R (61%)
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/8BFC6327/console06/2519EEB[m
+	[31mmodified:   .Rproj.user/8BFC6327/console06/2519EEB.env[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mcharts/manner_reverse_x.png[m
+	[31mcharts/quantity_too_little_agg.png[m
+	[31mcharts/quantity_too_little_label.png[m
+	[31mcharts/quantity_too_little_series.png[m
+	[31mcharts/quantity_too_little_x.png[m
+	[31mcharts/quantity_too_much_agg.png[m
+	[31mcharts/quantity_too_much_label.png[m
+	[31mcharts/quantity_too_much_series.png[m
+	[31mcharts/quantity_too_much_x.png[m
+	[31mcharts/relevance_1.png[m
+	[31mcharts/relevance_2.png[m
+	[31mquantity.R[m
+	[31mrelevance.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git add quantity.R
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git add relevance.R
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git commit -m "[K[K[K[K[K[K[K[K[K[K[K[Kad[K[K add .
