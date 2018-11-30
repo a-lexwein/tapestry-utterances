@@ -1,8 +1,16 @@
 back_to_date <- function(int) {
-  as.Date(int, origin = "1970-01-01", format = "")
+  ## what the eff am I supposed to use besides stamp?
+  lubridate::stamp_date("Nov 1")(lubridate::as_date(int, origin = lubridate::origin))
 }
 
-reverse_x <- series %>%
+breaks <- c(as.Date("2018-10-01"),
+            as.Date("2018-10-15"),
+            as.Date("2018-11-01"),
+            as.Date("2018-11-15"),
+            as.Date("2018-12-01")) %>%
+  purrr::map_int(as.integer)
+
+manner_reverse_x <- series %>%
   mutate(date_int = as.integer(date)) %>%
   filter(date >= as.Date("2018-10-01")) %>%
   filter(key %in% c("a", "b")) %>%
@@ -10,12 +18,10 @@ reverse_x <- series %>%
              y = value,
              color = key)) +
   geom_line() +
-  ggrepel::geom_label_repel(data = just_right_labs,
-                            aes(x = date_int,
-                                y = value,
-                                label = round(value,1),
-                                color = key)) +
-  scale_x_reverse(labels = back_to_date, name = "date")
-  
-
-just_right + coord_polar()
+  scale_x_reverse(labels = back_to_date, breaks = breaks) +
+  scale_y_continuous(labels = scales::dollar) +
+  theme(axis.title = element_blank(),
+        axis.text = element_text(size = 13),
+        legend.text = element_text(size = 13),
+        plot.title = element_text(size = 22)) +
+  ggtitle("FakeMart: Daily Profit") +  guides(color = guide_legend(title = "Product"))

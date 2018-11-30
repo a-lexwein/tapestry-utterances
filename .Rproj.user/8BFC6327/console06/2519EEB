@@ -1002,3 +1002,26 @@ Error connecting to agent: No such file or directory
 ]0;~/utterances-tapestry[?1034hAlexs-MacBook-Pro:utterances-tapestry alexwein$ [KAlexs-MacBook-Pro:utterances-tapestry alexwein$ tiu[K[Kouch just_right_chart.R
 ]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ open just_right_chart.R 
 ]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git add .
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git commit 0[K-m ""g"o"o"d"[1P"[1P"[1P"[1P"u"p"d"a"t"e"s" "t"i"m"e"l"i"n"e" "c"h"a"r"t"s"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"d"d"s" "r"u"n"m"e" "a"n"d" "f"i"x"e"s" "a"[1P"t"i"m"e"l"i"n"e" "l"a"b"e"l"s"
+[master 01337ef] adds runme and fixes timeline labels
+ 26 files changed, 376 insertions(+), 38 deletions(-)
+ create mode 100644 README.md
+ create mode 100644 charts/.DS_Store
+ create mode 100644 charts/just_right.png
+ create mode 100644 charts/timeline-step1.png
+ create mode 100644 charts/timeline-step2.png
+ create mode 100644 charts/timeline-step3.png
+ create mode 100644 charts/timeline-step4.png
+ create mode 100644 charts/timeline-step5.png
+ create mode 100644 just_right_chart.R
+ create mode 100644 plot_saver.R
+ create mode 100644 runme.R
+ create mode 100644 thanks.md
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ touch relean[K[Kveance.[K[K[K[K[K[Kance.R
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ o[e[K[Kpen relevance.R 
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ touch quantity.R
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ ioen[K[K[K[Kopen quantity.R
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ [KAlexs-MacBook-Pro:utterances-tapestry alexwein$ mv charts charts-saved
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ mkdir charts
+Error connecting to agent: No such file or directory
+]0;~/utterances-tapestry[?1034hAlexs-MacBook-Pro:utterances-tapestry alexwein$ git ad[K[K-[Kcommit -[K0[K-am "done[K[K[K[Kdone[K[K[K[Kfina[K[K[K[Kmabye last[K[K[K[K[K[K[K[K[K[Krunme re[K[Kfenera[K[K[K[K[K[Kgenreates a[K[K[K[K[K[K[K[Kerates all charts"

@@ -29,10 +29,6 @@ Next we come to semantics: how the meaning of words, in a particular syntactic s
 
 10. By context, we essentially mean: everything else besides the words themselves. There are three important types of context. There's lingusitic context: what was just said.
 
-"Alex made a chart. He used ggplot2."
-
-"Robert made a chart. He used ggplot2."
-
 So, despite being the same setence, they have different meanings. One could be true and the other could be false.
 
 There's also, situational context.

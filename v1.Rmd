@@ -67,9 +67,8 @@ But it's more complicated:
 
 - Nobody is actually a native speaker of viz...although vis relies on natural cognitives processes that power communication.
 - Data visualization is rarely in the canonical 2-speaker situation that linguists are most comfortable.
-- Most chart utterances are also super complex. We reach to charts when language oversimplifies.
-- Grice's maxims are a little flimsy as explanatory tools.
-- Important caveat: Every model is wrong (CITE the guy)
+- Most chart utterances are also super complex. We reach to charts to express things that words alone fail.
+- Grice's maxims are a little flimsy as a predictive tools.
 - Your generalization about language will fall apart based on some data point.
 
 Rappers

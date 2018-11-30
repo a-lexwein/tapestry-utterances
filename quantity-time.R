@@ -54,7 +54,8 @@ just_right <- series %>%
   ggrepel::geom_label_repel(data = just_right_labs, aes(x = date,
                                         y = value,
                                         label = round(value,1),
-                                        color = key))
+                                        color = key),
+                            direction = "y")
 
 too_little_series <- series %>%
   filter(date >= as.Date("2018-10-01")) %>%
