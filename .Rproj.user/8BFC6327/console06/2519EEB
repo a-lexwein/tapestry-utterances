@@ -1,120 +1,4 @@
-Identity added: /Users/alexwein/.ssh/bugcrowd_id (/Users/alexwein/.ssh/bugcrowd_id)
-]0;~/utterances-tapestry[?1034hAlexs-MBP:utterances-tapestry alexwein$ touch [KAlexs-MBP:utterances-tapestry alexwein$ touch quantity-time.[K.R
-]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ open quantity-time.R 
-]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ [KAlexs-MBP:utterances-tapestry alexwein$ git status
-fatal: not a git repository (or any of the parent directories): .git
-]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git init .
-Initialized empty Git repository in /Users/alexwein/utterances-tapestry/.git/
-]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git status
-On branch master
 
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.DS_Store[m
-	[31m.Rhistory[m
-	[31m.Rproj.user/[m
-	[31mlibs/[m
-	[31mmanner.R[m
-	[31mquantity-time.R[m
-	[31msandwich.Rmd[m
-	[31msandwich.html[m
-	[31mtimeline-playground.numbers[m
-	[31mtimeline-playground/[m
-	[31mtimeline.R[m
-	[31mtimeline.csv[m
-	[31mtry.Rmd[m
-	[31mtry.html[m
-	[31mutterances-tapestry.Rproj[m
-	[31mv1.Rmd[m
-	[31mv1.html[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git add .
-]0;~/utterances-tapestryAlexs-MBP:utterances-tapestry alexwein$ git commit -m ""g"i"t" "[1P"[1P"[1P"[1P"i"n"i"t" "g"i"t"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"g"i"t" "i"n"i"t"
-[master (root-commit) bb02764] git init
- 350 files changed, 25683 insertions(+)
- create mode 100644 .DS_Store
- create mode 100644 .Rhistory
- create mode 100644 .Rproj.user/8BFC6327/console06/2519EEB
- create mode 100644 .Rproj.user/8BFC6327/console06/2519EEB.env
- create mode 100644 .Rproj.user/8BFC6327/console06/INDEX001
- create mode 100644 .Rproj.user/8BFC6327/pcs/debug-breakpoints.pper
- create mode 100644 .Rproj.user/8BFC6327/pcs/files-pane.pper
- create mode 100644 .Rproj.user/8BFC6327/pcs/source-pane.pper
- create mode 100644 .Rproj.user/8BFC6327/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/8BFC6327/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/8BFC6327/persistent-state
- create mode 100644 .Rproj.user/8BFC6327/presentation/presentation-state-v2
- create mode 100644 .Rproj.user/8BFC6327/rmd-outputs
- create mode 100644 .Rproj.user/8BFC6327/saved_source_markers
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/14DAA158
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/2AD2BAEC
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/37DE8D56
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/4BCA0E09
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/50517F0D
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/5A3B6E4D
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/60725064
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/651B91BA
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/6C4CF626
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/729A3AD
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/72DD03F9
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/7B91C94C
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/80761BC2
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/AF0DF440
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/B2180C42
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/CAF4BD60
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/E5CB7223
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/EC695956
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/F8DC14AD
- create mode 100644 .Rproj.user/8BFC6327/sources/prop/INDEX
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/173DBA6E
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/173DBA6E-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/324DC30C
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/324DC30C-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/5193A47D
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/5193A47D-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/6E9F5A34
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/6E9F5A34-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/74267AE2
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/74267AE2-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/8A92E1C9
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/8A92E1C9-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/8CBBDA57
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/8CBBDA57-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/B48ABE6F
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/B48ABE6F-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/C276CD40
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/C276CD40-contents
- create mode 100644 .Rproj.user/8BFC6327/sources/s-B3CCB41/lock_file
- create mode 100644 .Rproj.user/8BFC6327/unsaved-notebooks/5193A47D/1/chunks.json
- create mode 100644 .Rproj.user/8BFC6327/unsaved-notebooks/C276CD40/1/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/8BFC6327416FEFD8/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/8BFC6327A2B81424/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/c5f4z7p6kd2qf/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/cj4ejwd4130h8/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/cjyrhh0j6rl84/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/ck2aq3x49ppod/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/ct4c9gt6uzfqy/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/cxoidsdkqgdpj/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/3D328680-bc-9493-wont-fix-backfill/1/s/cxwzzo9wgyv9b/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/62FD9365-sandwich/1/8BFC6327A43DD40B/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/62FD9365-sandwich/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/AAF8DA5F-v1/1/8BFC6327416FEFD8/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/AAF8DA5F-v1/1/8BFC63276B47984F/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/AAF8DA5F-v1/1/8BFC6327B3CCB41/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/AAF8DA5F-v1/1/8BFC6327D1FA7BF8/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/AAF8DA5F-v1/1/8BFC6327DDF3952F/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/AAF8DA5F-v1/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/D6C94B59-zen-iq-sf-explore/1/8BFC6327A43DD40B/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/D6C94B59-zen-iq-sf-explore/1/s/c45hb06b352nu/000006.csv
- create mode 100644 .Rproj.user/shared/notebooks/D6C94B59-zen-iq-sf-explore/1/s/c45hb06b352nu/000007.error
- create mode 100644 .Rproj.user/shared/notebooks/D6C94B59-zen-iq-sf-explore/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/D8F67ED1-try/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
  create mode 100644 .Rproj.user/shared/notebooks/paths
  create mode 100644 libs/Proj4Leaflet/proj4-compressed.js
  create mode 100644 libs/Proj4Leaflet/proj4leaflet.js
@@ -1095,3 +979,55 @@ To https://github.com/a-lexwein/tapestry-utterances.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git add [K[Kd .
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/8BFC6327/console06/2519EEB[m
+	[32mmodified:   README.md[m
+	[32mmodified:   thanks.md[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/8BFC6327/console06/2519EEB[m
+
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git commit -m ""a"d"d"e"d" "l"i"n"k" "t"o" "g"r"i"c"e" "i"n"r"e"a"d"[1P"[1P"[1P"[1P" "r"e"a"d"m"e"
+[master 224b057] added link to grice in readme
+ 3 files changed, 47 insertions(+), 11 deletions(-)
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ [KAlexs-MacBook-Pro:utterances-tapestry alexwein$ [KAlexs-MacBook-Pro:utterances-tapestry alexwein$ Error connecting to agent: No such file or directory
+[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   .Rhistory[m
+	[31mmodified:   .Rproj.user/8BFC6327/console06/2519EEB[m
+	[31mmodified:   .Rproj.user/8BFC6327/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/8BFC6327/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/8BFC6327/pcs/windowlayoutstate.pper[m
+	[31mmodified:   .Rproj.user/8BFC6327/pcs/workbench-pane.pper[m
+	[31mmodified:   .Rproj.user/8BFC6327/sources/prop/F8DC14AD[m
+	[31mmodified:   .Rproj.user/8BFC6327/sources/prop/INDEX[m
+	[31mdeleted:    .Rproj.user/8BFC6327/unsaved-notebooks/C276CD40/1/chunks.json[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   speech-try.md[m
+	[31mmodified:   thanks.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mjunk.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/utterances-tapestryAlexs-MacBook-Pro:utterances-tapestry alexwein$ git add .

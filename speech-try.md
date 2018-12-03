@@ -55,8 +55,7 @@ Sentences are abstract concepts, utterances happen in the world. An utterance ha
 Sentences have meaning, but the meaning is incomplete. Sentences have truth conditions, utterances have truth values.
 
 
-
-Which bringsus  to a Philosopher of Language named HP Grice. He wrote one of the foundational works of pragamtics, where he attempted to systematize the unwritten rules that govern conversation.  In the 1975 paper Logic and Conversation, Grice gives his Cooperative Principle. I'm gonna just read this one verbatim: “Make your contribution such as it is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged.”
+Which brings us to a Philosopher of Language named HP Grice. He wrote one of the foundational works of pragamtics, where he attempted to systematize the unwritten rules that govern conversation.  In the 1975 paper Logic and Conversation, Grice gives his Cooperative Principle. I'm gonna just read this one verbatim: “Make your contribution such as it is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged.”
 
 It's kind of a mouthful, but the idea is that conversation has a purpose, whether it's figuring out what to eat for dinner, expressing an idea about data visualization
 
