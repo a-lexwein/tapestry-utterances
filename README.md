@@ -4,4 +4,4 @@ The slides themselves were made using Google presentations are are available [he
 
 To generate the charts.  Run `runme.R`
 
-If you're curious, read HP's Grice's [Logic and Conversation](http://lefft.xyz/psycholingAU16/readings/grice1975-logic-and-conversation.pdf), where the Maxims are Conversation are introduced.
+If you're curious, read HP's Grice's [Logic and Conversation](http://lefft.xyz/psycholingAU16/readings/grice1975-logic-and-conversation.pdf), where the Maxims of conversation are introduced.
